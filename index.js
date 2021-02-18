@@ -15,7 +15,7 @@ async function Start() {
     let GUID = await Finder.FindServer(PlaceId)
     console.log(`Roblox.GameLauncher.joinGameInstance(${PlaceId}, "${GUID}")`)
 console.log("\n")
-console.log("OK, Now that it is done it should output something that looks like this Roblox.GameLauncher.joinGameInstance("+ name +","+ GUID +"). So, now go to the roblox game, press F12 and paste it in. You should be prompted to open roblox, or it might do it for you. You are now done! GLHF")
+console.log("OK, Now that it is done it should have output this: Roblox.GameLauncher.joinGameInstance("+ name +","+ GUID +"). So, now go to the roblox game, press F12 and paste it in. You should be prompted to open roblox, or it might do it for you. You are now done! GLHF")
 }
 
 Start()
